@@ -31,3 +31,32 @@ gnome-disks
 sudo ./change_rootfs_storage_direct-emmc_to_sdmmc.sh /dev/sda1
 sudo reboot
 ```
+
+## How to install VNC
+### Step 1
+```
+sudo apt install xfce4 xfce4-goodies
+sudo apt install tightvncserver
+vncserver
+```
+![2023-03-20_17-00-18](https://user-images.githubusercontent.com/48780839/226307763-f6843d25-1cd7-4077-8efc-81ddf5901137.png)
+
+![2023-03-20_17-00-53](https://user-images.githubusercontent.com/48780839/226307791-bd8382c6-095d-4488-bfe3-920e8e3bfbb9.png)
+
+### Step 2
+```
+vncserver -kill :1
+mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+nano ~/.vnc/xstartup
+```
+### Add
+```
+#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &
+```
+### Run VNC Server
+```
+sudo chmod +x ~/.vnc/xstartup
+vncserver
+```
