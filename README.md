@@ -2,9 +2,8 @@
 
 - 1 install OS Ubuntu 18.04
 - 2 install SDK Manager Nvidia on Ubuntu
-- 3 Plug USB Jetson Nano in Ubuntu
-- 4 Use jumper caps or Dupont wires to short-circuit the FC REC and GND pins
-
+- 3 Use jumper caps or Dupont wires to short-circuit the FC REC and GND pins
+- 4 Plug USB Jetson Nano in Ubuntu
 
 ```
 ls -l
