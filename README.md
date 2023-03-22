@@ -34,6 +34,8 @@ python3.7 --version
 ### Install Ciphey
 ```
 python3 -m pip install --upgrade pip
+python3 -m pip install -U ciphey
+or
 python3 -m pip install ciphey --upgrade
 ```
 
