@@ -35,6 +35,8 @@ gnome-disks
 ### Download
 ```
 https://github.com/mistelektronik/forecr_blog_files/blob/master/change_rootfs_storage_direct-emmc_to_sdmmc.zip
+or
+https://github.com/mistelektronik/forecr_blog_files/blob/master/change_rootfs_storage_direct-emmc_to_sdmmc.zip?raw=true
 ```
 ```
 sudo ./change_rootfs_storage_direct-emmc_to_sdmmc.sh /dev/sda1
