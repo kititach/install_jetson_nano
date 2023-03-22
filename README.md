@@ -5,9 +5,14 @@
 - 3 Use jumper caps or Dupont wires to short-circuit the FC REC and GND pins
 - 4 Plug USB Jetson Nano in Ubuntu
 
+![2023-03-22_8-43-30](https://user-images.githubusercontent.com/48780839/226781017-348926e7-7747-473e-a855-e732f126f25a.png)
+![2023-03-22_8-43-51](https://user-images.githubusercontent.com/48780839/226780985-2a41d5d2-46c1-4552-a259-db4e0412cca9.png)
+![2023-03-22_8-44-48](https://user-images.githubusercontent.com/48780839/226780994-fcbd8dbc-69b9-459e-990a-f461dda269f6.png)
+![2023-03-22_8-47-13](https://user-images.githubusercontent.com/48780839/226781003-55abdda3-df63-4550-a3c5-f1bca5bef154.png)
+
 ```
 ls -l
-df -k
+df -k , -h
 ```
 
 ## Tutorial Jetson Nano
