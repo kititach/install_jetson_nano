@@ -19,6 +19,24 @@ df -h
 - https://www.waveshare.com/wiki/JETSON-NANO-DEV-KIT#Method_One:_Adopt_SDK_Manager_Tool
 - https://www.waveshare.com/wiki/JETSON-NANO-DEV-KIT#Overview
 
+## Test Jetson nano
+### Install Python3
+```
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+When prompted press Enter to continue:
+```
+sudo apt install python3.7
+python3.7 --version
+```
+### Install Ciphey
+```
+python3 -m pip install --upgrade pip
+python3 -m pip install ciphey --upgrade
+```
+
 ## Boot from USB : Tutorial https://www.forecr.io/blogs/bsp-development/change-root-file-system-to-sd-card-directly
 ### Step1
 ```
