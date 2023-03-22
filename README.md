@@ -12,7 +12,7 @@
 
 ```
 ls -l
-df -k , -h
+df -h
 ```
 
 ## Tutorial Jetson Nano
